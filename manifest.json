@@ -1,0 +1,16 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.gousto.co.uk/*"
+      ],
+      "js": [
+        "warningBanner.js"
+      ]
+    }
+  ],
+  "description": "",
+  "manifest_version": 2,
+  "name": "It's Prod!",
+  "version": "0.0.1"
+}
